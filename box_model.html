@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-boksmodellen🔲</title>
+    <link rel="stylesheet" href="https://use.typekit.net/mdy3myj.css">
+
+
+    <style>
+        main {
+            background-color: #cfcfcf;
+            min-height: 1000px;
+            margin: 40px;
+            padding: 20px;
+        }
+
+        div {
+            margin: auto;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: #151515 solid 10px;
+            background-color: #858585;
+            max-width: 400px;
+            box-shadow: 0px 0px 15px #4e4e4e;
+        }
+
+        .arthur {
+            background-color: beige;
+
+        }
+
+        img {
+            max-height: 150px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: "protipo", sans-serif;
+            font-weight: 700;
+            font-size: 50px
+        }
+
+        h2 {
+            font-family: "protipo", sans-serif;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            /* sjs */
+
+        }
+
+        p {
+            font-family: "protipo", sans-serif;
+            font-weight: 400;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>CSS Cheat Sheet</h1>
+    <main>
+        <div>
+            <h2>CSS-boksmodellen</h2>
+            <p>Boksmodellen består av innholdet,
+                padding, border og margin.
+            </p>
+            <img src="./box_model.png" alt="Illustrasjon av boksmodellen">
+        </div>
+
+        <div class="arthur">
+            <h2>Padding</h2>
+            <p>Luft inni boksen, rundt teksten. Denne har med farge.
+            </p>
+            <img src="./padding.png" alt="Illustrasjon av padding">
+        </div>
+
+        <div>
+            <h2>Margin</h2>
+            <p>Margin er luft rundt innholdet.
+                Denne luften er usynlig.
+            </p>
+            <img src="./margin.png" alt="Illustrasjon av margin">
+        </div>
+
+        <div class="arthur">
+            <h2>Border</h2>
+            <p>Border blir som en slags stroke rundt boksen.
+                Man kan velge størrelse og farge.
+            </p>
+            <img src="./border.png" alt="Illustrasjon av border">
+        </div>
+
+        <div class>
+            <h2>Hva er en selector?</h2>
+            <p>En selector er en slags referansetag.
+                Denne definerer hviket objekt en CSS-endring skal gjelde for.
+
+            </p>
+            <img src="./selector.png" alt="Forklaring på selector">
+        </div>
+
+        <div class="arthur">
+            <h2>Hva er en attribute?</h2>
+            <p>En attribute er en egenskap som f.eks høyde, bredde, farge o.l.
+                På bildet under er det satt en attribute med en verdi slik at bildet ikke
+                blir høyere enn 150px.
+            </p>
+            <img src="./attribute.png" alt="Forklaring på attribute">
+        </div>
+
+        <div class>
+            <h2>Hva er en value?</h2>
+            <p>Value eller verdi er som oftest det man setter etter attributen.
+                Eksempler på dette kan være en lengde, en fargekode eller en
+            </p>
+            <img src="./value.png" alt="Forklaring på value">
+        
+        </div>
+
+        <div class="arthur">
+            <h2>Hva brukes p-taggen til?</p>
+            </h2>
+            <p>P-taggen er definisjonen på paragraph, eller
+                mengdetekst. Akuratt slik som denne teksten du leser her.
+            </p>
+        </div>
+
+        <div class>
+            <h2>Hva brukes h1 taggen til?</h2>
+            <p>H1 er definisjonen på en hovedoverskrift,
+                slik som den over disse boksene.
+            </p>
+        </div>
+
+        <div class="arthur">
+            <h2>Hvordan kommenterer man i HTML?</p>
+            </h2> 
+            <p>For å kommentere skriver man < !--, da vil sluttkommandoen komme automatisk etter kommentaren du skriver.
+            </p>
+        </div>
+
+        <div class>
+            <h2>Hvordan kommenterer man i CSS?</h2>
+            <p>For å kommentere i CSS skriver du først /*, så kommentaren din, for så å avslutte med */.
+            </p>
+        </div>
+
+        <div class="arthur">
+            <h2>Hvordan skriver man lenker?</p>
+            </h2>
+            <p>For å skrive lenker, skriver man først a på en ny linje. Trykk enter, og sett inn ønsket url i klammene.
+                Mellom de to neste motstående klammene setter du navnet på linken. Dette navnet er synlig på nettsiden.
+            </p>
+        </div>
+
+        <div class>
+            <h2>Hvordan legger man til bilder?</h2>
+            <p>Pass på å legge bildet du vil legge inn i mappen som html-filen ligger i.
+                I HTML-filen skriver du «img», og trykker enter.
+                I første «» skriver du ./ og velger bildet du skal sette inn fra mappen. I den andre «» skriver du en beskrivelse på bildet. Dette brukes til opplesning av nettsiden for svaksynte.
+            </p>
+        </div>
+
+        <div class="arthur">
+            <h2>Hvordan legger man til bakgrunnsfarge?</p>
+            </h2>
+            <p>Velg hvilke element du vil ha bakgrunnsfarge på.
+                Dette kan være en paragraf, en boks, eller hele nettsiden.
+                I style eller CSS-delen av HTML-filen setter du deretter inn < background-color: (verdi) >.
+            </p>
+        </div>
+
+        <div class>
+            <h2>Hva brukes main til i html?</h2>
+            <p>Main i HTML brukes til selve hovedinnholdet, slik som område der disse boksene er plassert.
+            </p>
+        </div>
+        
+        <div class="arthur">
+            <h2>Hvordan skriver man farge med HEX-verdi?</p>
+            </h2>
+            <p>Skriv # og en sekssifret kombinasjon av bokstaver (a-f) 
+                og tall (0-9). 0 er mørkest og f er lysest. 
+                Da er f.eks #ffffff hvit, #000000 svart, #ffcc00 en 
+                varm gul farge og #bfe6ff en lyseblå farge.
+            </p>
+        </div>
+
+        <div class>
+            <h2>Hvordan skriver man farge med rgb-verdi?</h2>
+            <p>Skriv rgb og verdien av rød, grønn og blå du vil bruke. 
+                F.eks rgb(255, 26, 00) til å få en rød farge, 
+                rgb(139, 49, 255) for en lilla farge og 
+                rgb(255, 239, 0) for gul.
+            </p>
+        </div>
+
+        <div class="arthur">
+            <h2>Hva brukes flexbox i CSS til?</p>
+            </h2>
+            <p>Flexbox brukes når du skal designe layout til en nettside. 
+                Innholdet blir da mer fleksibelt og flytter på seg automatisk 
+                i forhold til skjermstørrelsen.
+            </p>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
